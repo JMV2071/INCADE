@@ -28,3 +28,19 @@ while salir==False:
 
 print(f"La edad ingresada es: {edad}")
 print(f"Se ha ingresado la edad erroneamente {edad_erronea} veces")
+
+print("=============== Promedio de notas ===============")
+sum = float(0)
+for i in range(5):
+    nota = float(input('Ingrese la nota: '))
+    sum = sum + nota
+prom = sum/5
+print(f"El promedio de notas es de: {prom}")
+
+print("=============== Costos del comedor ===============")
+print("Dia     Costo")
+costo = int(0)
+for e in range(6):
+    e = e+1
+    costo = costo + 1250
+    print(f"{e}     {costo}")
