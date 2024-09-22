@@ -15,7 +15,7 @@ print("===============================================")
 
 print("DATOS DE INGRESO: ")
 print(f"Nombre completo: {nombre}")
-print(f"Fecha de nacimiento y edad:  {nacimiento} {edad} ")
+print(f"Fecha de nacimiento y edad:  {nacimiento} ({edad}) ")
 print(f"Posee titulo secundario?: {titulo}")
 print("Matricula: " + str(matricula))
 print("Cuota: " + str(cuota))
