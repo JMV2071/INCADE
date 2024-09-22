@@ -14,13 +14,15 @@ print("============UNIVERSIDAD DE PYTHON==============")
 print("===============================================")
 
 print("DATOS DE INGRESO: ")
-print("Nombre completo: " + nombre)
-print("Fecha de nacimiento y edad: "+ nacimiento + " (" + edad + ")")
-print("Posee titulo secundario?: " + titulo)
+print(f"Nombre completo: {nombre}")
+print(f"Fecha de nacimiento y edad:  {nacimiento} {edad} ")
+print(f"Posee titulo secundario?: {titulo}")
 print("Matricula: " + str(matricula))
 print("Cuota: " + str(cuota))
 print("Arancel mensual materia 'Python I': $" + str(PythonI_xmes))
 print("Arancel mensual materia 'Python I' con descuento: $" + str(PythonI_xmes_descuento))
+
+input('Enter para continuar')
 
 #ejercicio 2
 print("=====================================")
@@ -30,8 +32,8 @@ print("=====================================")
 par1 = float(input('Ingrese la nota del primer parcial: '))
 par2 = float(input('Ingrese la nota del segundo parcial: '))
 
-prom = str((par1 + par2)/2)
-print("el promedio de las notas es: " + prom)
+prom = (par1 + par2)/2
+print(f"el promedio de las notas es: {prom}")
 
 if par2 >= 7:
     print("Aprobó el segundo parcial")
@@ -47,7 +49,7 @@ elif par1< par2:
 else:
     print ("error")
 
-prom = float(prom)
+#prom = float(prom)
 
 if prom >= 7:
     print("Promocionó la materia")
@@ -56,6 +58,8 @@ else:
         print("Debe rendir exámen final")
     else:
         print("Debe recursar la materia")
+
+input('Enter para continuar')
 
 #ejercicio 3
 valor_cuota = float(8000)
@@ -110,6 +114,8 @@ elif vehiculo == "bicicleta":
     print(f"El costo de estacionamiento para Bicicleta es: ${precio_estacionamiento[vehiculo]}")
 else:
     print("Vehiculo no permitido")
+
+input('Enter para continuar')
 
 #ejercicio 4
 
