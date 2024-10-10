@@ -1,5 +1,9 @@
 #ejercicio 1
 def mayor_si(a,b,c):
+     if a==b:
+          print("error")
+    
+
     if a>b:
         if a>c:
             mayor=a
@@ -11,5 +15,3 @@ def mayor_si(a,b,c):
                 mayor = c
     return mayor
 
-mayor = mayor_si(1,3,1)
-print(mayor)
